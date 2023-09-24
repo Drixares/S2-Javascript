@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Outfit&display=swap');
+
+* {
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: #27ae60;
+    color: #ecf0f1;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+}
+
+
+button {
+    font-size: 1rem;
+    padding: 10px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color .3s;
+    border: 1px solid rgb(82, 82, 82);
+}
+
+button:hover {
+    background-color: #b5ffd4;
+}
+
+button:active {
+    box-shadow: inset 3px 3px 6px rgb(82, 82, 82);
+}
